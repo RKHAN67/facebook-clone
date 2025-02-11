@@ -1,9 +1,9 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import MainLayout from './MainLayout'
-import { About } from './pages/about'
-import { route } from './constant/route'
-import Home from './pages/Home'
+import MainLayout from '../layout/MainLayout'
+import { About } from '../pages/about'
+import { route } from '../constant/route'
+import Home from '../pages/Home'
 
 const routes = createBrowserRouter([
     {

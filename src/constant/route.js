@@ -1,5 +1,8 @@
 export const route = {
     HOME:{
-        path:"/"
+        path:"/",  
+        metaTitle: 'rizwanBhai',
+        metaDescription: 'rizwanBhai',
+        breadcrumbTitle: 'Home',
     }
 }
