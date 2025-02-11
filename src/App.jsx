@@ -1,8 +1,12 @@
-import React from "react"; // ✅ React کو import کریں
-import AppRoutes from "./routes";
+import React from 'react'
+import Router from './Router'
 
 const App = () => {
-    return <AppRoutes />;
-};
+  return (
+    <div>
+      <Router />
+    </div>
+  )
+}
 
-export default App;
+export default App
