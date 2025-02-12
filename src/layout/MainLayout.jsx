@@ -1,13 +1,15 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Header from './Header'
+import Header from '../components/layout/Header'
 
 const MainLayout = () => {
     return (
         <div>
-            <div><Header /></div>
-            <div className='pt-10'>
-            <Outlet />
+            <div>
+                <Header />
+            </div>
+            <div className='pt-0'>
+                <Outlet />
             </div>
             <p>rizwan</p>
         </div>
