@@ -9,7 +9,8 @@ import { IoMdVideocam } from "react-icons/io";
 import { IoStorefrontSharp } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 import { CgGames } from "react-icons/cg";
-
+import { FaUserFriends } from "react-icons/fa";
+import { RiMemoriesFill } from "react-icons/ri";
 
 export const Icons = {
     SEARCH: <IoSearch />,
@@ -22,6 +23,8 @@ export const Icons = {
     STORE: <IoStorefrontSharp />,
     PROFILE: <CgProfile />,
     GAMES: <CgGames />,
+    FRIENDS: <FaUserFriends />,
+    MEMORIES: <RiMemoriesFill />,
 }
 
 

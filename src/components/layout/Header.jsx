@@ -1,6 +1,7 @@
 import React from 'react';
-import Logo from '../assets/images/facebook-logo.png';
-import { Icons } from '../assets/icon/Icons';
+import Logo from '../../assets/images/facebook-logo.png';
+import userImage from '../../assets/images/user.jpeg';
+import { Icons } from '../../assets/icon/Icons';
 
 const NavigationIcon = [
     { icon: Icons.HOME, active: true },
@@ -51,8 +52,8 @@ const Header = () => {
                     </span>
                 </div>
                 <div className="relative">
-                    <div className="w-10 h-10 rounded-full cursor-pointer overflow-hidden">
-                        <img src="https://cdn-icons-png.flaticon.com/512/219/219988.png" alt="Profile" className="w-full h-full object-cover" />
+                    <div className="w-10 h-10 rounded-full cursor-pointer overflow-hidden ">
+                        <img src={userImage} alt="Profile" className="w-full h-full object-cover" />
                     </div>
                     <div className="absolute right-0 -bottom-1 bg-[#3b3d3e] w-4 h-4 flex items-center justify-center rounded-full cursor-pointer">
                         <span className="text-[14px] text-white">{Icons.DROPDOWN}</span>
