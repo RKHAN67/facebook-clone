@@ -11,6 +11,19 @@ import { CgProfile } from "react-icons/cg";
 import { CgGames } from "react-icons/cg";
 import { FaUserFriends } from "react-icons/fa";
 import { RiMemoriesFill } from "react-icons/ri";
+import { LuSaveAll } from "react-icons/lu";
+import { HiMiniBuildingStorefront } from "react-icons/hi2";
+import { SiBuzzfeed } from "react-icons/si";
+import { MdEventAvailable } from "react-icons/md";
+import { LiaAdSolid } from "react-icons/lia";
+import { BiHeartCircle } from "react-icons/bi";
+import { BiSolidGift } from "react-icons/bi";
+import { SiFacebookgaming } from "react-icons/si";
+import { BsCameraReels } from "react-icons/bs";
+import { MdOutlinePhotoLibrary } from "react-icons/md";
+import { BsEmojiLaughing } from "react-icons/bs";
+
+
 
 export const Icons = {
     SEARCH: <IoSearch />,
@@ -25,6 +38,17 @@ export const Icons = {
     GAMES: <CgGames />,
     FRIENDS: <FaUserFriends />,
     MEMORIES: <RiMemoriesFill />,
+    SAVE: <LuSaveAll />,
+    MARKETPLACE: <HiMiniBuildingStorefront />,
+    FEEDS: <SiBuzzfeed />,
+    EVENTS: <MdEventAvailable />,
+    ADS: <LiaAdSolid />,
+    HEART: <BiHeartCircle />,
+    GIFT: <BiSolidGift />,
+    GAMEING_VIDEO: <SiFacebookgaming />,
+    REELS: <BsCameraReels />,
+    PHOTO: <MdOutlinePhotoLibrary />,
+    EMOJI: <BsEmojiLaughing />,
 }
 
 

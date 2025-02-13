@@ -5,13 +5,13 @@ import Header from '../components/layout/Header'
 const MainLayout = () => {
     return (
         <div>
-            <div>
+            <div className='fixed w-full'>
                 <Header />
             </div>
-            <div className='pt-0'>
+            <div className='pt-16'>
                 <Outlet />
             </div>
-            <p>rizwan</p>
+            {/* <p>rizwan</p> */}
         </div>
     )
 }

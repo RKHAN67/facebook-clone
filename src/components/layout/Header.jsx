@@ -14,7 +14,7 @@ const NavigationIcon = [
 const Header = () => {
     return (
         <div className="flex gap-2 bg-[#252728] w-full h-16 md:px-5 drop-shadow-xl border-b border-[#343637] justify-between items-center">
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center w-[80%]">
                 <div className="w-10 cursor-pointer">
                     <img src={Logo} alt="Logo" className="w-full h-full" />
                 </div>
@@ -26,7 +26,7 @@ const Header = () => {
                     <span className="text-lg text-[#a7aaaf]">{Icons.SEARCH}</span>
                 </div>
             </div>
-            <div className="hidden md:flex items-center gap-8 mt-2 ">
+            <div className="hidden md:flex items-center gap-8 mt-2 w-full">
                 {NavigationIcon.map((item, index) => (
                     <div key={index} className="relative flex items-center justify-center w-14 h-14 cursor-pointer">
                         <span className={`text-3xl ${item.active ? 'text-blue-500' : 'text-[#a7aaaf]'}`}>
@@ -38,7 +38,7 @@ const Header = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex gap-3 items-center">
+            <div className="flex gap-3 items-center w-[50%]">
                 <div className="rounded-full bg-[#333334] p-3 cursor-pointer">
                     <span className="text-xl text-[#a7aaaf]">{Icons.GRID}</span>
                 </div>
