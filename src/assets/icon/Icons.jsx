@@ -22,6 +22,7 @@ import { SiFacebookgaming } from "react-icons/si";
 import { BsCameraReels } from "react-icons/bs";
 import { MdOutlinePhotoLibrary } from "react-icons/md";
 import { BsEmojiLaughing } from "react-icons/bs";
+import { IoMdClose } from "react-icons/io";
 
 
 
@@ -49,6 +50,7 @@ export const Icons = {
     REELS: <BsCameraReels />,
     PHOTO: <MdOutlinePhotoLibrary />,
     EMOJI: <BsEmojiLaughing />,
+    CLOSE: <IoMdClose />,
 }
 
 
