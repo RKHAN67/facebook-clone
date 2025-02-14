@@ -4,11 +4,31 @@ import userImage from '../../assets/images/user.jpeg';
 import { Icons } from '../../assets/icon/Icons';
 
 const NavigationIcon = [
-    { icon: Icons.HOME, active: true },
-    { icon: Icons.VIDEO, active: false },
-    { icon: Icons.STORE, active: false },
-    { icon: Icons.PROFILE, active: false },
-    { icon: Icons.GAMES, active: false }
+    {
+        icon:
+            Icons.HOME,
+        active: true
+    },
+    {
+        icon:
+            Icons.VIDEO,
+        active: false
+    },
+    {
+        icon:
+            Icons.STORE,
+        active: false
+    },
+    {
+        icon:
+            Icons.PROFILE,
+        active: false
+    },
+    {
+        icon:
+            Icons.GAMES,
+        active: false
+    }
 ]
 
 const Header = () => {
