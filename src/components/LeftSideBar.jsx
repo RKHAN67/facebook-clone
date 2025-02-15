@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icons } from '../assets/icon/Icons'
+import { Link } from 'react-router-dom';
 
 const menuItems = [
     { name: "Friends", icon: Icons.FRIENDS, link: "/friends" },
