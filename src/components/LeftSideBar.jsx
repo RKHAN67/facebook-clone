@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Icons } from '../assets/icon/Icons'
 import { Link } from 'react-router-dom';
+import userImage from "../assets/images/user.jpeg";
 
 const menuItems = [
     { name: "Friends", icon: Icons.FRIENDS, link: "/friends" },
